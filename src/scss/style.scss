@@ -143,4 +143,18 @@ figure {
 			}
 		}
 	}
+
+	.colorPicker {
+		position: absolute;
+		top: 14vh;
+		right: 10vw;
+		z-index: 2;
+		display: flex;
+
+		li {
+			padding: 3px 10px;
+			border: 1px solid #222;
+			cursor: pointer;
+		}
+	}
 }
