@@ -16,6 +16,7 @@ function App() {
 
 	return (
 		<figure>
+			<h1>Changhyeon O</h1>
 			<Canvas shadowMap style={{ background: '#cdcfd3' }} camera={{ position: [7, 7, 7] }}>
 				<Orbit />
 				{/* <axesHelper args={[5]} /> */}
